@@ -1,0 +1,137 @@
+html{
+    font-family:'Montserrat', sans-serif, Arial;
+    height: 100%;
+}
+
+body{
+    background-color: #f0f0f0;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+/*HEADER*/
+
+.texto-encabezado{
+    height: 100%;
+    width: 100%;
+    padding: 40px;
+    background: #ffe259; 
+    background: -webkit-linear-gradient(to right, #ffa751, #ffe259);  
+    background: linear-gradient(to right, #ffa751, #ffe259);
+    text-align: center;
+    text-shadow: 1px 1px 17px rgb(102, 100, 87);
+    font-size: 22px;
+}
+
+
+/* LINKS SUPERIOR */
+
+header section{
+    transition: color 1s ease;
+    float: right;
+    padding: 40px 4px;
+}
+
+a{
+    margin: 10px;
+    padding: 15px 20px;
+    border-radius: 20px;
+    background-color: rgb(219, 177, 40);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+p{
+    text-align: justify;
+}
+
+/*ESTADOS DE LINKS*/
+
+a:link{
+    color: rgb(255, 255, 255);
+}
+a:visited{
+    color: rgb(253, 253, 253);
+}
+a:hover{
+    color: rgb(32, 28, 28);
+}
+a:active{
+    color: rgb(7, 7, 7);
+}
+
+/* IMAGENES */
+
+.imagen1, .imagen2, .imagen3{
+    width: 450px;
+    border-radius: 1px;
+}
+
+.container, .comentarios, footer{
+    width: 450px;
+    margin: 0 auto;
+}
+
+.post1, .post2, .post3{
+    background-color: rgb(255, 255, 255);
+    margin: 1rem 0;
+    border-radius: 9px;
+    padding: 5px 0;
+}
+
+/* SOMBRAS Y ANIMACION */
+
+.post1:hover{
+    transition: box-shadow 0.4s ease;
+    box-shadow: 0px 0.5px 5px rgb(85, 85, 85);
+    cursor: pointer;
+}
+
+.post2:hover{
+    transition: box-shadow 0.4s ease;
+    box-shadow: 0px 0.5px 5px rgb(107, 107, 107);
+    cursor: pointer;
+}
+
+.post3:hover{
+    transition: box-shadow 0.4s ease;
+    box-shadow: 0px 0.5px 5px rgb(107, 107, 107);
+    cursor: pointer;
+}
+section .titulo-section, p{
+    margin: 15px 29px;
+}
+
+/* BOTONES DE ENVIAR Y LIMPIAR*/
+
+.boton{
+    background-color: blanchedalmond;
+    color: rgb(12, 12, 12);
+    padding: 7px;
+    margin: 15px 10px 10px 0px;
+    border-radius: 6px;
+    height: 40px;
+    width: 70px;
+    
+}
+
+.boton:hover{
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgb(255, 145, 2);
+}
+
+
+
+/* FOOTER*/ 
+
+footer{
+    background: #ffe259; 
+    background: -webkit-linear-gradient(to right, #ffa751, #ffe259);  
+    background: linear-gradient(to right, #ffa751, #ffe259);
+    padding: 33px;
+    width: 100%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
